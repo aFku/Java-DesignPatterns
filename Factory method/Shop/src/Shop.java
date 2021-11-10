@@ -22,22 +22,14 @@ public class Shop {
         System.out.print("Type number of product you want to buy: ");
         int choice = -1;
         float customerMoney = 0;
-        try {
-            choice = scan.nextInt();
-            if(choice < 1 || choice > 3){
-                throw new WrongValueException();
-            }
-            System.out.print("Now type how much can you spend: ");
-            customerMoney = scan.nextFloat();
-            if(customerMoney < 0){
-                throw new WrongValueException();
-            }
-        }catch (WrongValueException e){
-            System.out.println(e.getMessage());
-            System.exit(-1);
-        }catch (Exception e){
-            System.out.println("You typed wrong type of data. Please, type integer.");
-            System.exit(-1);
+        choice = scan.nextInt();
+        if(choice < 1 || choice > 3){
+            throw new WrongValueException();
+        }
+        System.out.print("Now type how much can you spend: ");
+        customerMoney = scan.nextFloat();
+        if(customerMoney < 0){
+            throw new NoMoneyException();
         }
 
         switch (choice) {
