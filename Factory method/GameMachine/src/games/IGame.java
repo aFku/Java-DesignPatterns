@@ -1,4 +1,4 @@
-package Games;
+package games;
 
 public interface IGame {
     public String getName();

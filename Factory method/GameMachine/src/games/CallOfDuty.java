@@ -1,4 +1,4 @@
-package Games;
+package games;
 
 import java.util.Random;
 
@@ -8,9 +8,6 @@ public class CallOfDuty implements IGame {
     private final int ageLimit = 18;
 
     private int enemyHealth = 10;
-    private final int yourDamage = 1;
-    private final double criticalChance = 0.3;
-    private final int criticalMultiplier = 3;
 
     private boolean isFinished = false;
     private Random rngGenerator = new Random();
@@ -38,6 +35,10 @@ public class CallOfDuty implements IGame {
     public void hitEnemy(){
         if(!isFinished) {
             double rngCritChance = rngGenerator.nextDouble();
+            // Stats
+            int yourDamage = 1;
+            double criticalChance = 0.3;
+            int criticalMultiplier = 3;
             if (rngCritChance < criticalChance) {
                 enemyHealth -= yourDamage * criticalMultiplier;
             } else {

@@ -1,4 +1,4 @@
-package Games;
+package games;
 
 import java.util.Random;
 
@@ -8,13 +8,9 @@ public class StreetFighter implements IGame{
     private final int ageLimit = 16;
 
     private int enemyHealth = 20;
-    private final int yourDamage = 1;
-    private final double criticalChance = 0.4;
-    private final double doubleDamageChance = 0.1;
-    private final int criticalMultiplier = 2;
 
     private boolean isFinished = false;
-    private Random rngGenerator = new Random();
+    private final Random rngGenerator = new Random();
 
     public String getName(){
         return "Super " + name;
@@ -37,6 +33,11 @@ public class StreetFighter implements IGame{
     }
 
     public void hitEnemy(){
+        // Stats
+        int yourDamage = 1;
+        double criticalChance = 0.4;
+        int criticalMultiplier = 2;
+        double doubleDamageChance = 0.1;
         if(!isFinished) {
             double damage = yourDamage;
             double rngCritChance = rngGenerator.nextDouble();
