@@ -1,0 +1,45 @@
+{
+  "_id": "65fd4bf9e00fabed9b2c2056",
+  "index": 0,
+  "guid": "a130c2aa-6dad-4686-8184-f8514899bfbc",
+  "isActive": false,
+  "balance": "$1,383.82",
+  "picture": "http://placehold.it/32x32",
+  "age": 38,
+  "eyeColor": "brown",
+  "name": "Hollie Burt",
+  "gender": "female",
+  "company": "ASSITIA",
+  "email": "hollieburt@assitia.com",
+  "phone": "+1 (995) 510-3753",
+  "address": "383 Gerry Street, Richford, Nevada, 3995",
+  "about": "Culpa magna consectetur aliqua anim anim ut. Aute fugiat et irure ipsum officia do tempor incididunt. Cupidatat cupidatat sint dolor id sunt incididunt do. Magna excepteur Lorem ex sunt pariatur amet. Do enim labore id sint nisi eiusmod fugiat consectetur pariatur velit. Amet veniam non ea qui velit esse nisi sint. Duis fugiat ex culpa occaecat laborum aliqua.\r\n",
+  "registered": "2017-05-06T08:03:07 -02:00",
+  "latitude": -22.706445,
+  "longitude": 20.161393,
+  "tags": [
+    "laboris",
+    "qui",
+    "eu",
+    "pariatur",
+    "sit",
+    "officia",
+    "nulla"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Bette Castillo"
+    },
+    {
+      "id": 1,
+      "name": "Simone Wyatt"
+    },
+    {
+      "id": 2,
+      "name": "Estela Craft"
+    }
+  ],
+  "greeting": "Hello, Hollie Burt! You have 9 unread messages.",
+  "favoriteFruit": "strawberry"
+}

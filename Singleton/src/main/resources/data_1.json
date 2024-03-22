@@ -1,0 +1,45 @@
+{
+    "_id": "65fd3f3ca05159ebdf1ad432",
+    "index": 0,
+    "guid": "ba376724-e7f3-4975-9718-392349eb3bdf",
+    "isActive": false,
+    "balance": "$2,592.20",
+    "picture": "http://placehold.it/32x32",
+    "age": 35,
+    "eyeColor": "blue",
+    "name": "Valencia Dale",
+    "gender": "male",
+    "company": "ISOLOGIA",
+    "email": "valenciadale@isologia.com",
+    "phone": "+1 (928) 571-3247",
+    "address": "416 Fairview Place, Gila, American Samoa, 3376",
+    "about": "Mollit nostrud minim id mollit ad aute Lorem deserunt velit eiusmod tempor. Voluptate reprehenderit labore elit veniam Lorem eu dolore anim ea cillum in cillum ut duis. Mollit nostrud laboris voluptate voluptate ullamco commodo consequat laborum dolore nulla. Cillum nostrud consequat ad Lorem. Nisi laborum excepteur mollit est sint reprehenderit eu. Labore non nulla elit tempor non proident. Sit et incididunt veniam incididunt dolore veniam qui.\r\n",
+    "registered": "2022-10-26T03:24:52 -02:00",
+    "latitude": -83.569909,
+    "longitude": -38.354272,
+    "tags": [
+      "tempor",
+      "nulla",
+      "quis",
+      "aliqua",
+      "irure",
+      "proident",
+      "laboris"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Wendi Greene"
+      },
+      {
+        "id": 1,
+        "name": "Dejesus Benjamin"
+      },
+      {
+        "id": 2,
+        "name": "Carter Hicks"
+      }
+    ],
+    "greeting": "Hello, Valencia Dale! You have 8 unread messages.",
+    "favoriteFruit": "banana"
+  }
