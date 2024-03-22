@@ -5,12 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.rcbg.afku</groupId>
-    <artifactId>FactoryMethod</artifactId>
+    <artifactId>AbstractFactory</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>AbstractFactory</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -30,4 +26,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
